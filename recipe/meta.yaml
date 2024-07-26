@@ -1,5 +1,5 @@
 {% set name = "large_image_source_rasterio" %}
-{% set version = "1.29.3" %}
+{% set version = "1.29.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/large-image-source-rasterio-{{ version }}.tar.gz
-  sha256: e66d4b26cc6e8989ebcfab3b8c827ff7f4f253604530e5c6d75d5d3ef9a6f231
+  sha256: 7ce8600f9db7fdab99b094fe727aff02db79bce74f7236f02142d794bea7b96a
 
 build:
   noarch: python
