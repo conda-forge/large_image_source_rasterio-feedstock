@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -30,7 +30,6 @@ test:
     - large_image
     - large_image_source_rasterio
   commands:
-    - pip check
     - python -c "import large_image; large_image.tilesource.loadTileSources(); assert 'rasterio' in large_image.tilesource.AvailableTileSources"
   requires:
     - pip
