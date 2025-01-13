@@ -12,15 +12,15 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - setuptools-scm
     - pip
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - large-image >=1.22.2
     - rasterio >=1.3
     - packaging
@@ -33,6 +33,7 @@ test:
     - python -c "import large_image; large_image.tilesource.loadTileSources(); assert 'rasterio' in large_image.tilesource.AvailableTileSources"
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/girder/large_image
