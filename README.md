@@ -34,7 +34,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-large_image_source_rasterio-green.svg)](https://anaconda.org/conda-forge/large_image_source_rasterio) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/large_image_source_rasterio.svg)](https://anaconda.org/conda-forge/large_image_source_rasterio) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/large_image_source_rasterio.svg)](https://anaconda.org/conda-forge/large_image_source_rasterio) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/large_image_source_rasterio.svg)](https://anaconda.org/conda-forge/large_image_source_rasterio) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-large__image__source__rasterio-green.svg)](https://anaconda.org/conda-forge/large_image_source_rasterio) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/large_image_source_rasterio.svg)](https://anaconda.org/conda-forge/large_image_source_rasterio) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/large_image_source_rasterio.svg)](https://anaconda.org/conda-forge/large_image_source_rasterio) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/large_image_source_rasterio.svg)](https://anaconda.org/conda-forge/large_image_source_rasterio) |
 
 Installing large_image_source_rasterio
 ======================================
