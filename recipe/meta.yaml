@@ -1,5 +1,5 @@
 {% set name = "large_image_source_rasterio" %}
-{% set version = "1.35.6" %}
+{% set version = "1.35.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 87dfa574e8df8ac1dbbf06ca8bc2bc052825ef144f6870d1b31d03feddbc057b
+  sha256: d2a80c6250a01e10d8ee57a63117c9a4639af0333b829c499a0f0fdca424cd6a
 
 build:
   noarch: python
